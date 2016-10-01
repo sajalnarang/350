@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.a350.MainActivity">
+
+    <EditText
+        android:id="@+id/p1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:text="Player 1"
+        android:onClick="removePlaceholder1"/>
+
+    <EditText
+        android:id="@+id/p2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:text="Player 2"
+        android:onClick="removePlaceholder2"/>
+
+    <EditText
+        android:id="@+id/p3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:text="Player 3"
+        android:onClick="removePlaceholder3"/>
+
+    <EditText
+        android:id="@+id/p4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="removePlaceholder4"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:text="Player 4" />
+
+    <EditText
+        android:id="@+id/p5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:onClick="removePlaceholder5"
+        android:background="#FFFFFF"
+        android:text="Player 5" />
+
+    <EditText
+        android:id="@+id/p6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:onClick="removePlaceholder6"
+        android:text="Player 6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textSize="20dp"
+        android:text="Play"
+        android:onClick="startGame"/>
+</LinearLayout>
